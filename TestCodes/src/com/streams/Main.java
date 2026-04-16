@@ -36,7 +36,7 @@ public class Main {
 		
 		System.out.println("Q3:");
 		// 3. Convert list of strings to uppercase
-		List<String> strList = new ArrayList<String>(Arrays.asList("java", "stream"));
+		List<String> strList = Arrays.asList("java", "stream");
 		String upperCase = strList.toString().toUpperCase();
 		System.out.println(upperCase);
 		
